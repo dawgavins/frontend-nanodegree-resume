@@ -119,6 +119,13 @@ a {
   background-color: #484848;
 }
 
+#skills {
+  flex-direction: column;
+  list-style-type: square;
+  list-style-position: inside;
+  line-height: 19px;
+}
+
 .flex-box {
   display: -webkit-flex;
   display: flex;
