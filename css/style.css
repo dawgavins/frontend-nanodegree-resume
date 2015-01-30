@@ -8,30 +8,42 @@
   overflow: auto;
 }
 
-.education-entry, .work-entry, .project-entry {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
 h1 {
   font-size: 40px;
-  color: #F5A623;
+  color: white;
+  text-shadow:
+   -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+     2px 2px 0 #000;
   line-height: 48px;
   display: inline;
 }
 
 h2 {
   font-weight: bold;
-  font-size: 24px;
-  color: #999999;
-  line-height: 29px;
+  font-size: 32px;
+  color: #286848;
+  text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+  line-height: 34px;
   padding: 10px;
 }
 
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000000;
+  color: black;
+  text-shadow:
+    -1px -1px 0 white,  
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+  padding:10px;
+
   line-height: 22px;
 }
 
@@ -48,6 +60,39 @@ h2, h3, h4, h5 {
   padding-right: 5%;
 }
 
+p {
+  font-size: 14px;
+  color: #333333;
+  line-height: 21px;
+}
+
+a {
+  color: #286848;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  padding: 10px;
+}
+
+span {
+  padding: 5px;
+}
+
+
+#header {
+  background-image: url("../images/green-back-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #286848;
+}
 
 .date-text {
   font-style: italic;
@@ -65,65 +110,61 @@ h2, h3, h4, h5 {
   float: right;
 
 }
-
-p {
-  font-size: 14px;
-  color: #333333;
-  line-height: 21px;
-}
-
-a {
-  color: #1199C3;
-  text-decoration: none;
-  margin-top: 10px;
-  display: block;
-}
-
 .welcome-message {
   font-style: italic;
-  font-size: 18px;
+  font-size: 26px;
   color: #F3F3F3;
   line-height: 28px;
 }
 
+#welcomeDiv {
+  margin: 20px 0 0px 0;
+}
+
 #skillsH3 {
-  color: #F5AE23;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 0%;
   display: none;
 }
 
-.orange {
-  background-color: #F5AE23;
+.green-background {
+  background-color: #286848;
 }
 
-.orange-text {
-  color: #F5AE23;
+.contact-type-text {
+  color: white;
+  text-shadow:
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
 }
 
 .white-text {
-  font-weight: bold;
-  color: #FFFFFF;
+  color: white;
 }
 
 .gray {
-  background-color: #F3F3F3;
+  background-color: #E2E6E4;
   padding-bottom: 10px;
   clear:both;
 }
 
-.dark-gray {
-  background-color: #4A4A4A;
+.role {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow:
+    -1px -1px 0 white,  
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;  
 }
 
-/* TODO: Replace with image later */
-#header {
-  background-color: #484848;
-}
 
-#skills {
-  flex-direction: column;
-  list-style-type: square;
-  list-style-position: inside;
-  line-height: 19px;
+.animating-scale-element {
+  position: relative;  
 }
 
 .flex-box {
@@ -142,20 +183,38 @@ a {
   padding-bottom: 2.5%
 }
 
-ul {
-  list-style-type: none;
-}
-
 .biopic {
   float: left;
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
   width: 200px;
+  display: none;
+  border-radius: 30px;
+}
+
+#skills {
+  flex-direction: column;
+  list-style-type: square;
+  list-style-position: inside;
+  line-height: 19px;
+}
+
+.education-entry, .work-entry, .project-entry {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.hidden-element {
   display: none;
 }
 
-img {
-  padding: 10px;
+.project-image {
+  border-radius: 20px;  
 }
+
+.education-entry {
+  padding-bottom:  20px;
+}
+
 
 /* Bar chart stuff */
 .chart div {
@@ -169,12 +228,27 @@ img {
   display: inline-block;
 }
 
-span {
-  padding: 5px;
+#workExperience, #projects, #education {
+  padding-bottom: 20px;
+}
+
+.work-recommendation {
+  color: blue;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 #letsConnect {
   text-align: center;
+}
+
+.connect-text {
+  color: white;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -217,6 +291,6 @@ span {
 @media only screen and (min-width: 750px) {
   #skillsH3,
   .biopic {
-    display: block;
+    display: inline-block;
   }
 }
