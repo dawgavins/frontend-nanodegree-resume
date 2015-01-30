@@ -1,14 +1,14 @@
 
 
 var bio = {
-	name: "Erik Benediktson",
+	name: "Harvey Wall",
 	role: "Programmer",
 	contacts : {
 		mobile: "123-456-7890",
 		email: "no_mail_please@gmail.com",
 		github: "dawgavins",
 		twitter: "aintgotone",
-	    location: "2400 Willow St, Vancouver, BC",
+	    location: "2400 Willow St, Coquitlam, BC",
 	},
 	welcomeMessage: "Discovering the world of web development.",
 	skills: [ "Console Game Development", "Mobile Development", "Web Development", "Hockey", "Mario Kart" ],
@@ -106,36 +106,36 @@ var education = {
 var work = { 
 	jobs : [
 		{
-			"employer" : "Electronic Arts Canada",
+			"employer" : "Electronic Hearts Canada",
 			"title" : "Software Engineer",
 			"location" : "Sanderson Way, Burmaby, BC",
 			"dates" : "2001 - 2006",
-			"description" : "Console game programming for the SSX and NBA Street franchises.  Gameplay, cameras, tools, online, front end.",			
-			"recommendation" : "'Erik was reliable and adaptable in the tasks he took on.' - Robyn Wallace, Development Director"
+			"description" : "Console game programming for the snowboarding and basketball franchises.  Gameplay, cameras, tools, online, front end.",			
+			"recommendation" : "'Harvey was reliable and adaptable in the tasks he took on.' - Phil Ritchie, Development Director"
 		},
 		{
-			"employer" : "Next Level Games",
+			"employer" : "Levelhead Games",
 			"title" : "Software Engineer",
-			"location" : "208 Robson Street, Vancouver, BC V6B 6A1",
+			"location" : "Robson Street, Vancouver, BC",
 			"dates" : "2006 - 2011",
 			"description" : "Console game programming for a variety of games including Spiderman: Friend or Foe (Xbox, PS3, Wii), Punch Out (Wii), Transformers (Wii), Luigi's Mansion (3DS).  Mostly gameplay and tools.",
-			"recommendation" : "'Erik is a hard worker who I could count on to solve difficult problems.' - Tedd Streibel, Senior Programmer"
+			"recommendation" : "'I could count on Harvey to solve difficult problems.' - Ed Stockton, Senior Programmer"
 		},
 		{
-			"employer" : "United Front Games",
+			"employer" : "Together We Stand Games",
 			"title" : "Software Engineer",
 			"location" : "Mainland St, Vancouver, BC",
 			"dates" : "2012",
 			"description" : "Contract console game programming for Little Big Planet: Karting for the PS3.  Gameplay and tools-related tasks.",
-			"recommendation" : "'Erik's calm demeanor makes working with him a pleasure.' - Mat Thomas, Gameplay Producer"
+			"recommendation" : "'Harvey's calm demeanor makes working with him a pleasure.' - Frank Trotz, Gameplay Producer"
 		},
 		{
-			"employer" : "Hothead Games",
+			"employer" : "Hot Potato Games",
 			"title" : "Software Engineer",
-			"location" : "877 Great Northern Way, Vancouver, BC",
+			"location" : "Great Northern Way, Vancouver, BC",
 			"dates" : "2013 - 2014",
 			"description" : "Mobile development - client and back-end programming for the BigWin franchise of sports games.",
-			"recommendation" : "'Erik quickly got up to speed on mobile development.' - Kevin Wilkinson, Producer"
+			"recommendation" : "'Harvey quickly got up to speed on mobile development.' - Peter Linkhausen, Producer"
 		} 
 	],
 
