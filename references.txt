@@ -1,0 +1,7 @@
+http://api.jquery.com/
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+https://developers.google.com/maps/documentation/javascript/places
+http://photographystocks.blogspot.ca/2013/06/puck-green-nucleas-digital-backdrop_17.html
+http://ca.ign.com/images/games
+http://stackoverflow.com/
+http://www.bennadel.com/blog/2442-clearing-inline-css-properties-with-jquery.htm
