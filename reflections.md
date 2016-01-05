@@ -1,7 +1,7 @@
--no problem making the JSON objects and displaying the information correctly
--making a different style for the page took an hour or two
--adding animating text took a while longer to get working.  Not totally happy with how it looks (all the other text pops down in response to the resizing) but its a starting point on making things a bit more interesting
--had to learn a bunch more about jQuery selectors to get the animating bits working better.
--I think Bootstrap would have helped - at least for the grid.
--I'm intrigued by the use of the Google Map.  As a feature on this page its not very functional, but its neat to get some experience using an interactive map.  I would like to add more to the info window that comes up when you click on a marker, and hide the markers when a different one is clicked.
--overall its a good start but if I wanted it to be a finished interactive resume that I would use professionaly, I would want to polish it more.
+- no problem making the JSON objects and displaying the information correctly
+- making a different style for the page took an hour or two
+- adding animating text took a while longer to get working.  Not totally happy with how it looks (all the other text pops down in response to the resizing) but its a starting point on making things a bit more interesting
+- had to learn a bunch more about jQuery selectors to get the animating bits working better.
+- I think Bootstrap would have helped - at least for the grid.
+- I'm intrigued by the use of the Google Map.  As a feature on this page its not very functional, but its neat to get some experience using an interactive map.  I would like to add more to the info window that comes up when you click on a marker, and hide the markers when a different one is clicked.
+- overall its a good start but if I wanted it to be a finished interactive resume that I would use professionaly, I would want to polish it more.
